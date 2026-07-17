@@ -3,6 +3,7 @@
     {
       "name": "Arpan Karfa",
       "email": "admin@etrmp.com",
+       "password": "Passw0rd!",
       "role": "Admin",
       "department": "IT",
       "status": "Active",
