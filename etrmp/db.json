@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "name": "Arpan Karfa",
+      "email": "admin@etrmp.com",
+      "role": "Admin",
+      "department": "IT",
+      "status": "Active",
+      "id": "u1"
+    },
+    {
+      "id": "u2",
+      "name": "Mike Manager",
+      "email": "manager@etrmp.com",
+      "password": "Passw0rd!",
+      "role": "Project Manager",
+      "department": "Delivery",
+      "status": "Active"
+    },
+    {
+      "id": "u3",
+      "name": "Tara Member",
+      "email": "member@etrmp.com",
+      "password": "Passw0rd!",
+      "role": "Team Member",
+      "department": "Engineering",
+      "status": "Active"
+    },
+    {
+      "id": "u4",
+      "name": "Sam Developer",
+      "email": "sam@etrmp.com",
+      "password": "Passw0rd!",
+      "role": "Team Member",
+      "department": "Engineering",
+      "status": "Active"
+    },
+    {
+      "id": "u5",
+      "name": "Priya QA",
+      "email": "priya@etrmp.com",
+      "password": "Passw0rd!",
+      "role": "Team Member",
+      "department": "Quality",
+      "status": "Inactive"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "name": "Customer Portal Revamp",
+      "code": "PRJ-001",
+      "description": "Redesign the customer self-service portal.",
+      "startDate": "2026-01-05",
+      "endDate": "2026-06-30",
+      "managerId": "u2",
+      "status": "In Progress",
+      "priority": "High",
+      "budget": 120000
+    },
+    {
+      "id": "p2",
+      "name": "Internal Analytics Suite",
+      "code": "PRJ-002",
+      "description": "Build internal BI dashboards.",
+      "startDate": "2026-02-01",
+      "endDate": "2026-08-15",
+      "managerId": "u2",
+      "status": "Not Started",
+      "priority": "Medium",
+      "budget": 75000
+    },
+    {
+      "id": "p3",
+      "name": "Mobile App Launch",
+      "code": "PRJ-003",
+      "description": "Launch companion mobile app.",
+      "startDate": "2025-11-01",
+      "endDate": "2026-03-01",
+      "managerId": "u1",
+      "status": "Completed",
+      "priority": "High",
+      "budget": 200000
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Design login screen",
+      "description": "Create UI mockups for login flow.",
+      "projectId": "p1",
+      "assignedUserId": "u3",
+      "priority": "High",
+      "dueDate": "2026-07-20",
+      "status": "In Progress",
+      "estimatedHours": 8,
+      "actualHours": 4
+    },
+    {
+      "id": "t2",
+      "title": "Set up CI pipeline",
+      "description": "GitHub Actions for build + test.",
+      "projectId": "p1",
+      "assignedUserId": "u4",
+      "priority": "Medium",
+      "dueDate": "2026-07-22",
+      "status": "To Do",
+      "estimatedHours": 6,
+      "actualHours": 0
+    },
+    {
+      "id": "t3",
+      "title": "API integration for tasks module",
+      "description": "Connect task board to REST API.",
+      "projectId": "p1",
+      "assignedUserId": "u4",
+      "priority": "High",
+      "dueDate": "2026-07-18",
+      "status": "Blocked",
+      "estimatedHours": 10,
+      "actualHours": 6
+    },
+    {
+      "id": "t4",
+      "title": "Write test cases",
+      "description": "Unit tests for user service.",
+      "projectId": "p2",
+      "assignedUserId": "u5",
+      "priority": "Low",
+      "dueDate": "2026-07-25",
+      "status": "To Do",
+      "estimatedHours": 5,
+      "actualHours": 0
+    },
+    {
+      "id": "t5",
+      "title": "Data model review",
+      "description": "Review analytics schema.",
+      "projectId": "p2",
+      "assignedUserId": "u3",
+      "priority": "Medium",
+      "dueDate": "2026-07-19",
+      "status": "Completed",
+      "estimatedHours": 4,
+      "actualHours": 4
+    },
+    {
+      "id": "t6",
+      "title": "App store submission",
+      "description": "Submit build for review.",
+      "projectId": "p3",
+      "assignedUserId": "u2",
+      "priority": "High",
+      "dueDate": "2026-02-20",
+      "status": "Completed",
+      "estimatedHours": 3,
+      "actualHours": 3
+    }
+  ]
+}
