@@ -1,1 +1,0 @@
-import"./chunk-EQDQRRRY.js";var t=[{path:"",loadComponent:()=>import("./chunk-55LKTQBO.js").then(o=>o.UserListComponent)},{path:"new",loadComponent:()=>import("./chunk-OV4DWDSP.js").then(o=>o.UserFormComponent)},{path:":id",loadComponent:()=>import("./chunk-OV4DWDSP.js").then(o=>o.UserFormComponent)}];export{t as USERS_ROUTES};
